@@ -8,7 +8,6 @@ const Button = () => {
 
   const [time, setTime] = useState("")
   const [txt, setTXT] = useState("PUSH")
-  const hola = "Hola"
   const tiempo = time;
   const tx=txt 
 
@@ -60,18 +59,6 @@ const Button = () => {
     return(speechSynthesis.speak(new SpeechSynthesisUtterance("!Cancelar!")));
    }
   }
-
-//   var tiempo =0
-// function click(){
-//   if (tiempo > 0){
-//     window.location.reload()
-//   }
-//   tiempo = 10
-//   setTimeout(()=>{
-//     console.log('que haga la vaina')
-//   },tiempo)
-// }
-
  
   const timeout = setTimeout(()=>{
       
